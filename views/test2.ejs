@@ -1,0 +1,21 @@
+<body style="background-color: rgb(4, 78, 78);">
+        <div > 
+                <h1 style="text-align: center;background-color: lightblue;">PERSONAL DETAILS</h1>
+                <%finals.forEach(function(finals){%>
+                    <div style="float: right;background-color: orchid;"><img src="prof.png" width="250px"></div>
+                <div style="float: left" >
+                    <span></span><h3>ID ::</h3></span><span><%= finals.id%></span>
+                    </br>
+                    <h3>GENDER ::</h3> <span><%= finals.gender%></span>
+                    </br>
+                    <h3>AGE ::</h3> <span><%= finals.age%></span>
+                    </br>
+                    <h3> QUALIFICATION ::</h3> <span><%= finals.qualification%></span>
+                    </br>
+                    <h3> ASSETS ::</h3> <span><%= finals.assets%></span>
+                    </br>
+                    <hr>
+                </div>
+                <%});%>
+        </div>
+        </body>

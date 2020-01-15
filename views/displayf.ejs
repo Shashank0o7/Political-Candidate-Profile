@@ -1,0 +1,22 @@
+<body style="background-color: rgb(4, 78, 78);">
+        <div > 
+                <h1 style="text-align: center;background-color: lightblue;">POLITICAL DETAILS</h1>
+                <%finalw.forEach(function(finalw){%>
+                    <div style="float: right;background-color: orchid;"></div>
+                <div style="float: left; width: 100%;" >
+                    <img style="float: right;"src="prof.png" width="200px" height="200px">
+                    <h3>ID ::<span><%= finalw.id%></span> </h3>
+                    </br>
+                    <h3>NAME ::<span><%= finalw.name%></span></h3> 
+                    </br>
+                    <h3>DATE_OF_JOINING ::<span><%= finalw.date_of_joining%></span></h3> 
+                    </br>
+                    <h3> LAST_ELECTION_RECORD ::<span><%= finalw.last_elec_rec%></span></h3>  
+                    </br>
+                    <h3> CRIMINAL RECORD ::<span><%= finalw.criminal_rec%></span></h3> 
+                    </br>
+                <hr>
+                </div>
+                <%});%>
+        </div>
+        </body>

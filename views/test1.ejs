@@ -1,0 +1,20 @@
+<body style="background-color: rgb(4, 78, 78);">
+<div > 
+        <h1 style="text-align: center;background-color: lightblue;">POLITICAL DETAILS</h1>
+        <%finals.forEach(function(finals){%>
+            <div style="float: right;background-color: orchid;"><img src="prof.png" width="250px"></div>
+        <div style="float: left" >
+            <h3>ID ::</h3><span><%= finals.id%></span> 
+            </br>
+            <h3>NAME ::</h3> <span><%= finals.name%></span>
+            </br>
+            <h3>DATE_OF_JOINING ::</h3> <span><%= finals.date_of_joining%></span>
+            </br>
+            <h3> LAST_ELECTION_RECORD ::</h3> <span><%= finals.last_elec_recod%></span> 
+            </br>
+            <h3> CRIMINAL RECORD ::</h3> <span><%= finals.criminal_rec%></span>
+            </br>
+        </div>
+        <%});%>
+</div>
+</body>

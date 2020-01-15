@@ -1,0 +1,28 @@
+<body style="background-color: rgb(4, 78, 78);">
+        <div > 
+                <h1 style="text-align: center;background-color: lightblue;">PROJECTS</h1>
+                <%finals.forEach(function(finals){%>
+                    <div style="float: right;background-color: orchid;"><img src="prof.png" width="350px"></div>
+                <div style="float: left" >
+                    <h3>ID ::</h3> <span><%= finals.id%></span>
+                    </br>
+                    <h3>PROJECT_NAME ::</h3> <span><%= finals.project_name%></span>
+                    </br>
+                    <h3>FUND_PROVIDED ::</h3> <span><%= finals.funds_provided%></span> 
+                    </br>
+                    <h3> FUND_SPENT ::</h3> <span><%= finals.funs_spent%></span>
+                    </br>
+                    <h3> YEAR ::</h3> <span><%= finals.year%></span>
+                    </br>
+                    <h3> STATUS ::</h3> <span><%= finals.status%></span> 
+                </BR>
+                    </br>
+                    <form action="http://localhost/MINIPROJ2/proc.php" method="POST"> 
+                     <input style="background-color: rgb(4, 78, 78);" type="hidden" name="id" value="<%= finals.id%>">
+                    <h3>CLICK TO KNOW THE PERCENTAGE OF FUNDS SPENT<button>perc_spent</button></h3>
+                    </form>
+                    </br>
+                </div>
+                <%});%>
+        </div>
+        </body>

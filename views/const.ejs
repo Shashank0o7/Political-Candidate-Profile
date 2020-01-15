@@ -1,0 +1,11 @@
+<body style="background-color: lightblue;">
+    <h1 style="text-align:center;background-color: lightgoldenrodyellow;">CONSTITUTIONS IN DATABASE</h1>
+    <div>
+<%f.forEach(function(f){%>
+    <h3>SEQ.NO ::<span><%= f.id%></span></h3>
+    <h3>CONSTI_ID ::<span><%= f.consti_id%></span></h3>
+    <h3>DATE ON WHICH CONSTITUTION WAS ADDED ::<span><%= f.date_consti_was_made%></span></h3>
+    </br>
+    <%});%>
+</div>
+</body>

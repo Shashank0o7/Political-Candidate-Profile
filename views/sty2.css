@@ -1,0 +1,81 @@
+body{
+	background: green;
+	background: linear-gradient(to bottom,orange,green);
+}
+.c4{
+	background: linear-gradient(to bottom,white,grey);
+	border: 0px solid red;
+	/*padding-right: 4px;*/
+	/*background: yellow;*/
+	height: 400px;
+	float: left;
+	width: 25%;
+}
+.c5{
+	border: 0px solid red;
+	background: white;
+	background: linear-gradient(to bottom,white,green);
+	height: 400px;
+	float: left;
+	width: 25%;
+}
+.c6{
+	border: 0px solid red;
+	background: blue;
+	background: linear-gradient(to bottom,white,gold);
+	height: 400px;
+	float: left;
+	width: 25%;
+}
+.c7{
+	border: 0px solid red;
+	background: red;
+	background: linear-gradient(to bottom,white,violet);
+	height: 400px;
+	float: left;
+	width: 25%;
+}
+.a{
+
+  -webkit-column-width: 10px; /* Chrome, Safari, Opera */
+  -moz-column-width: 10px; /* Firefox */  
+  column-width: 10px;
+
+}
+.b{
+	-webkit-column-width: 10px; /* Chrome, Safari, Opera */
+  -moz-column-width: 10px; /* Firefox */  
+  column-width: 10px;
+}
+.c{
+	-webkit-column-width: 10px; /* Chrome, Safari, Opera */
+  -moz-column-width: 10px; /* Firefox */  
+  column-width: 10px;
+}
+.d{
+	-webkit-column-width: 10px; /* Chrome, Safari, Opera */
+  -moz-column-width: 10px; /* Firefox */  
+  column-width: 10px;
+}
+.c4 article{
+	  font-size: 20px;
+	color:grey;	
+}	
+.c5 article{
+	  font-size: 20px;
+	color:green;
+}
+.c6 article{
+	  font-size: 20px;
+	color:orange;
+}
+.c7 article{
+	  font-size: 20px;
+	color:violet;
+}
+.footer{
+	clear: both;
+	background: grey;
+	text-align: center;
+	padding: 20px;
+}

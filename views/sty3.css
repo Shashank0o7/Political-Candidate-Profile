@@ -1,0 +1,59 @@
+body{
+	background-image: url(lo3.png);
+	background-size: cover;
+}
+.c8 h2{
+	margin-top: -150px;
+	margin-left: 70%;
+}
+.c8 input{
+	margin-left: 70%;
+	margin-top: 0%;
+	/*background: linear-gradient(to bottom,orange,green);*/
+	background:transparent; 
+}
+.c8 textarea{
+	margin-left: 70%;
+	margin-top: 10px;
+	/*background-color:violet;*/
+	/*background: linear-gradient(to bottom,orange,green);*/
+	background: transparent;
+}
+.footer{
+	margin-top: 14%;
+	/*margin-bottom:0px;*/
+	/*clear: both;*/
+	background: linear-gradient(to bottom,white,grey);
+	text-align: center;
+	padding: 20px;
+}
+.app{
+	/*float:right;*/
+	/*clear: both;*/
+}
+.re{
+	/*float: right;*/
+	margin-top:10px;
+	margin-left: 850px;
+	margin-bottom:50px
+}
+.logo{
+	/*margin-left:50%;*/
+	/*float: right;*/
+
+	margin-bottom:0px;
+	height: 40px;
+	width:40px;
+	/*image-rendering: 20px 10px 10px;*/
+}
+.logo1{
+	margin-left: 5px;
+	float:left;
+}
+.logo3{
+	margin-left:45%;
+	margin-top:99px;
+}
+::placeholder { /* Internet Explorer 10-11 */
+ color: black;
+}

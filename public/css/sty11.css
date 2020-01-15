@@ -1,0 +1,36 @@
+body{
+	background: linear-gradient(to bottom,orange,green);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.c2{
+	float: right;
+}
+.c2:hover{
+	color: blue;
+}
+
+.footer{
+	margin-top: 495px;
+	margin-bottom: 0px;
+	clear: both;
+	background: grey;
+	text-align: center;
+	padding: 20px;
+}
+a:hover{
+
+	color: grey;
+	box-shadow: 45;
+}
+
+.co{
+	color: black;
+}
+
+.c5{
+    width: 100%;
+    border: 0px solid #ddd;
+}
+
+}

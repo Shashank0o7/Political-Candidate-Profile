@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+	<title>SUPPORT</title>
+	<link rel="stylesheet" type="text/css" href="sty3.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+<marquee background="linear-gradient(to bottom,white,grey);" behavior="scroll" scrollamount="25"><h1 style="text-align: center;"> YOU CAN CONNECT US ANY TIME </h1></marquee>
+<br/>
+<br/>
+<br/>
+<h2>
+	<font color="black">CALL US AT <b>7019013567</b></font>
+</h2>
+<br/>
+<h2>
+	MAIL US AT <b>gov1313@gmail.com</b>
+</h2>
+<div class="c8">
+	 <h2>FEEDBACK</h2>
+	 <form class="c4">
+		<input type="email"  placeholder="enter your email id" required>
+		<textarea rows="10" cols="30" placeholder="enter your feedback" required></textarea>
+		<!-- <button style="clear: both" class="btn btn-primary btn-lg" type="button" onclick="kal()">submit</button> -->
+		<input class="btn btn-primary btn-lg" type="SUBMIT" placeholder="SUBMIT" >
+    </form>
+	<script>
+		function kal()
+		{
+			var xhttp=new XMLHttpRequest();
+			xhttp.onreadystatechange=function(){
+				if(this.readyState==4 && this.status==200)
+				{
+					document.getElementById("app").innerHTML=this.responseText;
+				}
+			};
+			xhttp.open("GET","h.txt",false);
+			xhttp.send();
+		}
+	</script>
+
+</div>
+	<!-- <a href="www.google.com"></a> -->
+	<div class="logo3" >
+	<div class="logo1">
+	
+		<img class="logo" src="l1.png" onclick="window.location.href='https://www.google.com/';"></div>
+		<div class="logo1"><img class="logo" src="l2.png" onclick="window.location.href='https://www.facebook.com/';"></div>
+	<div class="logo1">	<img class="logo" src="l3.png" onclick="window.location.href='https://www.instagram.com/';"></div>
+    </div>
+
+<footer class="footer">
+		 	&copy:copyright shashank 2019
+		 </footer>
+</body>
+</html>
